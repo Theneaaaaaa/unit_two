@@ -16,7 +16,6 @@ location_of_user = input("Where are you from then? By the way I am set to be fro
 
 print("From the knowledge I have,", location_of_user, "is a very enjoyable place.", "Umm... Let's do some fun "
                                                                                     "calculation", name_of_user, ".")
-
 favorite_number_of_user = input("What is your favorite number?")
 
 difference_between_numbers = int(favorite_number_of_user) / 7
