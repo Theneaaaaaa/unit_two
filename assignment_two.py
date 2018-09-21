@@ -15,7 +15,7 @@ print(name_of_user, "sounds cute! I like this name!")
 location_of_user = input("Where are you from then? By the way I am set to be from Maryland :P")
 
 print("From the knowledge I have,", location_of_user, "is a very enjoyable place.", "Umm... Let's do some fun "
-                                                                                    "calculation", name_of_user, ".")
+                                                                                    "calculation,", name_of_user, ".")
 favorite_number_of_user = input("What is your favorite number?")
 
 difference_between_numbers = int(favorite_number_of_user) / 7
@@ -29,7 +29,7 @@ print("Now I showed your my calculating skills, what about let me help you do so
 
 favorite_car_of_user = input("So what is your favorite car?")
 
-print("To be honest, I also want one of those. Imagine......", favorite_car_of_user, "WOW...")
+print("To be honest, I also want one of those. Imagine......", favorite_car_of_user, "，Wow......")
 
 price_of_the_car = float(input("How much is it(in US dollars)?"))
 
