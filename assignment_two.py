@@ -1,4 +1,4 @@
-# Thenea_Sun
+# Thenea Sun
 # Sept. 19th
 # assignment_two
 # This is my second project, which I created a chat bot with codes, in order to get all the information that is
@@ -32,7 +32,7 @@ favorite_car_of_user = input("So what is your favorite car?")
 
 print("To be honest, I also want one of those. Imagine......", favorite_car_of_user, "WOW...")
 
-price_of_the_car = float(input("How much is it?"))
+price_of_the_car = float(input("How much is it(in US dollars)?"))
 
 print("God!", price_of_the_car, "! That is a fair price for those kinds of cars but still expensive!")
 
@@ -48,11 +48,11 @@ monthly_interest_rate = annual_interest_rate / 100 / 12
 
 number_of_month = years_to_buy * 12
 
-monthly_payment = (monthly_interest_rate * price_of_the_car) / (1 - (1 + int(monthly_interest_rate)) ^
-                                                                          (- int(number_of_month))
+monthly_payment = (monthly_interest_rate * price_of_the_car) / (1 - (1 + monthly_interest_rate) ** -number_of_month)
 
 total_car_cost = monthly_payment * int(number_of_month)
 
 print("Here you are! I got it! Your monthly payment for", favorite_car_of_user, "is going to be", monthly_payment,
       ", and add on together you will pay", total_car_cost, "to get your car! Let's go", name_of_user, "!")
 
+print("Thank you for talking about me! See you next time!")
